@@ -52,3 +52,26 @@ footer span{
   margin-left: 5px;
   color: red;
 }
+
+@media (max-width: 600px) {
+  body {
+    line-height: normal;
+  }
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
+
+  main h4 {
+    font-size: 19px;
+  }
+
+  main p {
+    font-size: 16px;
+  }
+
+  footer{
+    font-size: 12px;
+  }
+}
